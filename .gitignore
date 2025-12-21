@@ -1,0 +1,12 @@
+# Private keys - never commit these
+*.pem
+id_*
+!id_*.pub
+
+# Local configs with real values
+.env
+config.local.sh
+
+# OS junk
+.DS_Store
+Thumbs.db
